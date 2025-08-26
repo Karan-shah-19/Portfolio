@@ -93,7 +93,7 @@ const Navigation = () => {
               variant={isScrolled ? "default" : "outline"}
               size="sm"
               onClick={() => scrollToSection("contact")}
-              className={!isScrolled ? "border-white/30 text-white hover:bg-white/10" : ""}
+              className={!isScrolled ? "bg-white/20 border-white/50 text-white hover:bg-white/30 backdrop-blur-sm" : ""}
             >
               Let's Talk
             </Button>
