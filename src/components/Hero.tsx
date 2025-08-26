@@ -48,24 +48,18 @@ const Hero = () => {
               variant="hero" 
               size="lg" 
               onClick={scrollToProjects}
-              className="bg-white/20 hover:bg-white/30 border border-white/30"
             >
               View My Work
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              className="border-white/50 text-white hover:bg-white/10"
+              className="bg-white/20 border-white/50 text-white hover:bg-white/30 backdrop-blur-sm"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Get In Touch
             </Button>
           </div>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-6 h-6 text-white/70" />
         </div>
       </div>
     </section>
