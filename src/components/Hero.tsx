@@ -25,7 +25,7 @@ const Hero = () => {
               Karan Shah
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-light">
-              Aspiring Backend Developer • Java | Databases | Web Apps
+              Aspiring FullStack Developer • Java | Databases | Web Apps
             </p>
           </div>
 
