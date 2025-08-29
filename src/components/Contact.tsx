@@ -43,20 +43,20 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex.thompson@email.com",
-      href: "mailto:alex.thompson@email.com"
+      value: "shahkaran809@gmail.com",
+      href: "mailto:shahkaran809@gmail.com"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Gujarat, India",
       href: "#"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 9265197138",
+      href: "tel:+919265197138"
     }
   ];
 
@@ -64,20 +64,20 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/alexthompson",
-      username: "alexthompson"
+      href: "https://github.com/karan-shah-19",
+      username: "karan-shah-19"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/alexthompson",
-      username: "Alex Thompson"
+      href: "https://linkedin.com/in/karan-shah-530776318",
+      username: "Karan Shah"
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:alex.thompson@email.com",
-      username: "alex.thompson@email.com"
+      href: "mailto:shahkaran809@gmail.com",
+      username: "shahkaran809@gmail.com"
     }
   ];
 

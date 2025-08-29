@@ -6,44 +6,45 @@ const About = () => {
   const skills = [
     {
       category: "Languages",
-      items: ["Java", "Python", "JavaScript", "TypeScript", "SQL"]
+      items: ["Java", "Python", "JavaScript", "HTML & CSS", "SQL"]
     },
     {
       category: "Frontend",
-      items: ["React", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"]
+      items: ["React", "HTML5", "CSS3"]
     },
     {
       category: "Backend",
-      items: ["Node.js", "Spring Boot", "Express", "PostgreSQL", "MongoDB"]
+      items: ["Java Servlets & JSP", "JDBC", "MYSQL"]
     },
     {
       category: "Tools & AI",
-      items: ["Git", "Docker", "AWS", "OpenAI API", "TensorFlow"]
+      items: ["Git & GitHub", "VS Code", "OpenAI API"]
     }
   ];
 
   const highlights = [
-    {
-      icon: Code,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable code with best practices and modern design patterns."
-    },
-    {
-      icon: Palette,
-      title: "Design Focus",
-      description: "Creating beautiful, intuitive user experiences with attention to detail and usability."
-    },
-    {
-      icon: Zap,
-      title: "Performance",
-      description: "Optimizing applications for speed, efficiency, and excellent user experience."
-    },
-    {
-      icon: Users,
-      title: "Collaboration",
-      description: "Working effectively in teams using agile methodologies and clear communication."
-    }
-  ];
+  {
+    icon: Code,
+    title: "Java & Backend",
+    description: "Strong foundation in Java with hands-on experience in Servlets, JSP, JDBC, and MySQL for web applications."
+  },
+  {
+    icon: Palette,
+    title: "Web Development",
+    description: "Building responsive and user-friendly interfaces using HTML, CSS, and React (beginner level)."
+  },
+  {
+    icon: Zap,
+    title: "Problem Solving",
+    description: "Enjoy tackling coding challenges and applying data structures & algorithms to practical problems."
+  },
+  {
+    icon: Users,
+    title: "Continuous Learning",
+    description: "Exploring new technologies like Python, AI tools, and modern frameworks to expand my skillset."
+  }
+];
+
 
   return (
     <section id="about" className="py-20 bg-muted/30">
@@ -66,10 +67,10 @@ const About = () => {
                 <div className="w-64 h-64 mx-auto lg:mx-0 relative">
                   <img 
                     src={profilePhoto}
-                    alt="Alex Thompson - Full Stack Developer"
+                    alt="Karan Shah - An aspiring developer"
                     className="w-full h-full object-cover rounded-2xl shadow-lg"
                   />
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-primary/20 to-accent/20"></div>
+                  <div className="absolute inset-0 rounded-2xl ring-primary/10"></div>
                 </div>
               </div>
 
@@ -78,9 +79,14 @@ const About = () => {
                   Full Stack Developer & Designer
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  With over 3 years of experience in web development, I specialize in creating 
-                  robust, scalable applications using modern technologies. I'm passionate about 
-                  clean code, user-centered design, and solving complex problems with elegant solutions.
+                  I'm Karan Shah, a B.Tech CSE student and passionate Full Stack Developer. 
+                  I work with Java for backend development (Servlets, JSP, JDBC, MySQL) and 
+                  also build responsive interfaces using HTML, CSS, JavaScript, React, and TailwindCSS.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                    Beyond web development, I'm exploring Python and AI tools, while strengthening my 
+                    knowledge of data structures and algorithms. I enjoy learning new technologies 
+                    and applying them to real-world projects like my To-Do App and university website.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   When I'm not coding, you'll find me exploring new technologies, contributing to 

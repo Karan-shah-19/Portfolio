@@ -22,16 +22,16 @@ const Hero = () => {
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Alex Thompson
+              Karan Shah
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-light">
-              Building scalable and creative web solutions
+              Aspiring Backend Developer • Java | Databases | Web Apps
             </p>
           </div>
 
           {/* Skills tags */}
           <div className="flex flex-wrap justify-center gap-3 pt-4">
-            {["Full Stack Developer", "UI/UX Designer", "Problem Solver"].map((skill, index) => (
+            {["Java Developer", "UI/UX Designer", "Problem Solver"].map((skill, index) => (
               <span 
                 key={skill}
                 className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium border border-white/30"

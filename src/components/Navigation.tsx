@@ -64,7 +64,7 @@ const Navigation = () => {
                 ? "text-primary" 
                 : "text-white"
             }`}>
-              Alex Thompson
+              Karan Shah
             </span>
           </div>
 
